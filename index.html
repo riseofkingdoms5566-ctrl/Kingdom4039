@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingdom 4039 | RoK</title>
+    <style>
+        /* Genel Tasarım */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a2e; /* Koyu tema */
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            border-bottom: 2px solid #e94560;
+            margin-bottom: 30px;
+        }
+
+        h1 { margin: 0; color: #e94560; text-transform: uppercase; }
+        p { font-size: 1.2rem; opacity: 0.8; }
+
+        /* Klan Kartları Bölümü */
+        .clan-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .clan-card {
+            background-color: #16213e;
+            border: 1px solid #484b6a;
+            border-radius: 15px;
+            padding: 20px;
+            width: 250px;
+            transition: transform 0.3s;
+        }
+
+        .clan-card:hover {
+            transform: translateY(-10px);
+            border-color: #e94560;
+        }
+
+        .clan-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #e94560;
+        }
+
+        .clan-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .clan-tag {
+            color: #0f3460;
+            background: #e94560;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rise of Kingdoms</h1>
+        <p>Kingdom #4039 - Ana Menü</p>
+    </header>
+
+    <div class="clan-container">
+        <div class="clan-card">
+            <img src="https://via.placeholder.com/150" alt="Klan 1" class="clan-img">
+            <div class="clan-name">NO MERCY</div>
+            <span class="clan-tag">NM39</span>
+        </div>
+
+        <div class="clan-card">
+            <img src="https://via.placeholder.com/150" alt="Klan 2" class="clan-img">
+            <div class="clan-name">NO BAGUETTE</div>
+            <span class="clan-tag">NB39</span>
+        </div>
+
+        <div class="clan-card">
+            <img src="https://via.placeholder.com/150" alt="Klan 3" class="clan-img">
+            <div class="clan-name">Klan Ismi</div>
+            <span class="clan-tag">TAG</span>
+        </div>
+    </div>
+
+</body>
+</html>
